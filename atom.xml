@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-11-06T11:06:12.909Z</updated>
+  <updated>2021-11-08T10:58:35.644Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,20 +17,20 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://example.com/2020/01/01/HelloWorld/"/>
-    <id>http://example.com/2020/01/01/HelloWorld/</id>
-    <published>2019-12-31T16:00:00.000Z</published>
-    <updated>2021-11-06T11:06:12.909Z</updated>
+    <title>雅雅拾光记,我的第一篇博文~</title>
+    <link href="http://example.com/2021/11/08/myfirst/"/>
+    <id>http://example.com/2021/11/08/myfirst/</id>
+    <published>2021-11-07T16:00:00.000Z</published>
+    <updated>2021-11-08T10:58:35.644Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-    <summary type="html">Hexo相关资料以及简单的使用教程.</summary>
+    <content type="html"><![CDATA[<p>欢迎来到我的博客，花了一点时间用hexo+git+nodejs简单的搭建了一个博客，记录一些平常的生活和学习，本人目前是一名普通的软件测试，希望可以通过自己的努力，学习一些新的技术，掌握一些新的知识。</p><h2 id="一、关于博客搭建"><a href="#一、关于博客搭建" class="headerlink" title="一、关于博客搭建"></a>一、关于博客搭建</h2><h3 id="1、什么是Hexo"><a href="#1、什么是Hexo" class="headerlink" title="1、什么是Hexo"></a>1、什么是Hexo</h3><p><a href="https://hexo.io/zh-cn/">Hexo</a> 是高效的静态站点生成框架，他基于 <a href="https://nodejs.org/en/">Node.js</a>。通过 Hexo 你可以轻松地使用 <a href="https://daringfireball.net/projects/markdown/">Markdown</a> 编写文章（博主现在使用的编辑器是<a href="https://www.typora.io/#">Typora</a>），除了 Markdown 本身的语法之外，还可以使用 Hexo 提供的 <a href="https://hexo.io/zh-cn/docs/tag-plugins.html">标签插件</a> 来快速的插入特定形式的内容，<a href="https://hexo.io/zh-cn/">Hexo</a>，<a href="https://git-scm.com/downloads">Git</a>，<a href="https://nodejs.org/zh-cn/download/">Nodejs</a>具体的安装过程网上有大量的教程，这里就不多说了。</p><h3 id="2、使用的一些第三方服务"><a href="#2、使用的一些第三方服务" class="headerlink" title="2、使用的一些第三方服务"></a>2、使用的一些第三方服务</h3><h4 id="（1）Algolia-Search"><a href="#（1）Algolia-Search" class="headerlink" title="（1）Algolia Search"></a>（1）Algolia Search</h4><p><a href="https://www.algolia.com/">Algolia</a> 是一个托管搜索引擎，提供全文，数字和多面搜索，能够从第一次击键中提供实时结果，Algolia强大的API可让您快速无缝地在网站和移动应用程序中实施搜索，感兴趣的话可以去官网自行探索。</p><h4 id="（2）文章数据统计（基于-Valine-js-插件）"><a href="#（2）文章数据统计（基于-Valine-js-插件）" class="headerlink" title="（2）文章数据统计（基于 Valine.js 插件）"></a>（2）文章数据统计（基于 <code>Valine.js</code> 插件）</h4><p><a href="https://valine.js.org/">Valine</a>是一款快速、简洁且高效的无后端评论系统，实现方式：在文章列表页面加载 <code>Valine.js</code>， 只要 Valine 配置项中的 <code>el</code> 元素不存在即不会加载评论框相关内容。  本博客评论功能使用的就是是 <code>Valine.js</code> 插件，感兴趣的话可以去官网自行探索。</p><h4 id="（3）赞赏页面"><a href="#（3）赞赏页面" class="headerlink" title="（3）赞赏页面"></a>（3）赞赏页面</h4><p>赞赏页面使用了 <a href="https://github.com/Kaiyuan/sponsor-page">Sponsor Page</a>，并做了相关修改使其适应博客样式。感兴趣的小伙伴自行去了解吧。  </p><h2 id="二、关于主题"><a href="#二、关于主题" class="headerlink" title="二、关于主题"></a>二、关于主题</h2><p>主题预览：<a href="https://www.notes.worstone.cn/">Hexo - Live For Code</a>  </p><h2 id="三、后记"><a href="#三、后记" class="headerlink" title="三、后记"></a>三、后记</h2><p>搭建这个博客以后了解到自己的知识还是不够广，也学到了很多新的知识，发现不断地实践真的可以学到许多平时根本接触不到的东西，后面我会把自己学习的一些知识共享，也会分享一些自己的生活，共勉。</p>]]></content>
     
     
+    <summary type="html">我的第一篇博文，简单介绍博客的搭建及一些第三方服务。</summary>
     
-    <category term="Web" scheme="http://example.com/category/Web/"/>
+    
+    
+    <category term="myblog" scheme="http://example.com/category/myblog/"/>
     
     
     <category term="Hexo" scheme="http://example.com/tag/Hexo/"/>

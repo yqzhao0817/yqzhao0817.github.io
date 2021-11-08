@@ -6,7 +6,7 @@
     <meta name="referrer" content="origin">
     <meta http-equiv="Cache-Control" content="no-transform">
     <meta http-equiv="Cache-Control" content="no-siteapp">
-    <title>分类 - Web</title>
+    <title>雅雅拾光记,我的第一篇博文~</title>
     <link rel="shortcut icon" href="#"/>
 
     <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/font/LongCang.css">
@@ -18,65 +18,106 @@
     <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/font/Rosario.css">
     <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/font/UbuntuMono.css">
 
-    <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/css/index.css">
+    <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/css/post.css">
+    
+        <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/css/normal.css">
+    
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/js/jquery-3.4.1.min.js"></script>
+
 <meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
 </head>
 <body>
     <a id="cover"></a>
     <div id="header">
-    <div class="header" >
+    <div class="header">
         <div class="vertical">
             <div class="inner">
-                <h1 class="header-title"></h1>
-                <h2 class="header-description" id="hitokoto"></h2>
-                <h3 class="header-info" id="hitokotoAuthor"></h3>
-                <!--
-                <h1 class="header-subtitle"></h1>
-                <p class="header-subinfo"></p>
-                -->
+                <h1 class="header-subtitle">雅雅拾光记,我的第一篇博文~</h1>
+                <div class="header-subinfo">
+                    <p class="article-info-text">
+                        <span>
+                            <i class="iconfont icon-time"></i> 发表时间：2021-11-08
+                        </span>
+                        
+                            <span id="/2021/11/08/myfirst/" class="leancloud_visitors" data-flag-title="雅雅拾光记,我的第一篇博文~">
+                                <i class="iconfont icon-browse"></i> 阅读：<sapn class="leancloud-visitors-count"></span>
+                            </span>
+                        
+                        <span>
+                            <i class="iconfont icon-interactive"></i> 评论：<span class="valine-comment-count" data-xid="/2021/11/08/myfirst/"></span>
+                        </span>  
+                    </p>                 
+                </div>
             </div>
         </div>
-        <a class="scroll-down" href="javascript:;" target="_self" data-offset="-45">
-            <span class="hidden">Scroll Down</span>
-            <i class="scroll-down-icon iconfont icon-return"></i>
-        </a>
+        <canvas id="articleHeaderCanvas"></canvas>
     </div>
 </div>
     <div id="container">
     <div id="content">
-        <div class="articles">
-    
-        <div class="article">
-            <div class="article-title">
-                <a href="/2020/01/01/HelloWorld/">Hello World</a>
-                
+        <div id="article">
+    <div class="toc"></div>
+    <div class="article-body">
+        <p>欢迎来到我的博客，花了一点时间用hexo+git+nodejs简单的搭建了一个博客，记录一些平常的生活和学习，本人目前是一名普通的软件测试，希望可以通过自己的努力，学习一些新的技术，掌握一些新的知识。</p>
+<h2 id="一、关于博客搭建"><a href="#一、关于博客搭建" class="headerlink" title="一、关于博客搭建"></a>一、关于博客搭建</h2><h3 id="1、什么是Hexo"><a href="#1、什么是Hexo" class="headerlink" title="1、什么是Hexo"></a>1、什么是Hexo</h3><p><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">Hexo</a> 是高效的静态站点生成框架，他基于 <a target="_blank" rel="noopener" href="https://nodejs.org/en/">Node.js</a>。通过 Hexo 你可以轻松地使用 <a target="_blank" rel="noopener" href="https://daringfireball.net/projects/markdown/">Markdown</a> 编写文章（博主现在使用的编辑器是<a target="_blank" rel="noopener" href="https://www.typora.io/#">Typora</a>），除了 Markdown 本身的语法之外，还可以使用 Hexo 提供的 <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/tag-plugins.html">标签插件</a> 来快速的插入特定形式的内容，<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">Hexo</a>，<a target="_blank" rel="noopener" href="https://git-scm.com/downloads">Git</a>，<a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn/download/">Nodejs</a>具体的安装过程网上有大量的教程，这里就不多说了。</p>
+<h3 id="2、使用的一些第三方服务"><a href="#2、使用的一些第三方服务" class="headerlink" title="2、使用的一些第三方服务"></a>2、使用的一些第三方服务</h3><h4 id="（1）Algolia-Search"><a href="#（1）Algolia-Search" class="headerlink" title="（1）Algolia Search"></a>（1）Algolia Search</h4><p><a target="_blank" rel="noopener" href="https://www.algolia.com/">Algolia</a> 是一个托管搜索引擎，提供全文，数字和多面搜索，能够从第一次击键中提供实时结果，Algolia强大的API可让您快速无缝地在网站和移动应用程序中实施搜索，感兴趣的话可以去官网自行探索。</p>
+<h4 id="（2）文章数据统计（基于-Valine-js-插件）"><a href="#（2）文章数据统计（基于-Valine-js-插件）" class="headerlink" title="（2）文章数据统计（基于 Valine.js 插件）"></a>（2）文章数据统计（基于 <code>Valine.js</code> 插件）</h4><p><a target="_blank" rel="noopener" href="https://valine.js.org/">Valine</a>是一款快速、简洁且高效的无后端评论系统，实现方式：在文章列表页面加载 <code>Valine.js</code>， 只要 Valine 配置项中的 <code>el</code> 元素不存在即不会加载评论框相关内容。  本博客评论功能使用的就是是 <code>Valine.js</code> 插件，感兴趣的话可以去官网自行探索。</p>
+<h4 id="（3）赞赏页面"><a href="#（3）赞赏页面" class="headerlink" title="（3）赞赏页面"></a>（3）赞赏页面</h4><p>赞赏页面使用了 <a target="_blank" rel="noopener" href="https://github.com/Kaiyuan/sponsor-page">Sponsor Page</a>，并做了相关修改使其适应博客样式。感兴趣的小伙伴自行去了解吧。  </p>
+<h2 id="二、关于主题"><a href="#二、关于主题" class="headerlink" title="二、关于主题"></a>二、关于主题</h2><p>主题预览：<a target="_blank" rel="noopener" href="https://www.notes.worstone.cn/">Hexo - Live For Code</a>  </p>
+<h2 id="三、后记"><a href="#三、后记" class="headerlink" title="三、后记"></a>三、后记</h2><p>搭建这个博客以后了解到自己的知识还是不够广，也学到了很多新的知识，发现不断地实践真的可以学到许多平时根本接触不到的东西，后面我会把自己学习的一些知识共享，也会分享一些自己的生活，共勉。</p>
+
+        <p class="suffix-end">__END__</p>
+        <div class="suffix-box">
+            <div class="suffix-box-left">
+                <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Finews.gtimg.com%2Fnewsapp_bt%2F0%2F14118575606%2F1000&refer=http%3A%2F%2Finews.gtimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1638817302&t=ce6186da027ac90575f7be9cc937d813" alt="雅雅拾光记">
             </div>
-            <div class="article-abstract">
-                
-                    摘要：Hexo相关资料以及简单的使用教程.
-                    <a href="/2020/01/01/HelloWorld/">阅读全文</a>
-                
+            <div class="suffix-box-right">
+                <span class="suffix-box-title">文章作者</span>：雅雅拾光记
+                <br>
+                <span class="suffix-box-title">文章出处</span>：<a href="https://yqzhao0817.github.io/" target="_blank">雅雅拾光记</a>
+                <br>
+                <span class="suffix-box-title">作者签名</span>：萤火虫的光点虽然微弱，但亮着便是向黑暗挑战！
+                <br>
+                <span class="suffix-box-title">关于主题</span>：<a href="https://github.com/first19326/Hexo-LiveForCode" target="_blank">Hexo - Live For Code</a>
+                <br>
+                <span class="suffix-box-title">版权声明</span>：文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" title="BY-NC-SA" target="_blank">BY-NC-SA</a> 许可协议，转载请注明出处
+                <br>
             </div>
-            <div class="clear"></div>
-            <div class="article-info">
-                <span>
-                    <i class="iconfont icon-time"></i> 发表时间：2020-01-01
-                </span>
-                
-                    <span id="/2020/01/01/HelloWorld/" class="leancloud_visitors" data-flag-title="Hello World">
-                        <i class="iconfont icon-browse"></i> 阅读：<sapn class="leancloud-visitors-count"></span>
-                    </span>
-                
-                <span>
-                    <i class="iconfont icon-interactive"></i> 评论：<span class="valine-comment-count" data-xid="/2020/01/01/HelloWorld/"></span>
-                </span>
-            </div>
-            <div class="clear"></div>     
+            <div style="clear: both;"></div>
         </div>
+    </div>
+    <div class="article-footer">
+        
+            <div class="category">
+                分类：
+                
+                    <a href="/category/myblog/">myblog</a>
+                
+            </div>
+        
+        
+            <div class="tag">
+                标签：
+                
+                    <a href="/tag/Hexo/">Hexo</a>
+                
+            </div>
+        
+        <div class="article-prev-next">
+            
+            
+        </div>
+    </div>
     
-    
+    <div class="article-comments">
+        <div class="comments-title">
+            评论列表
+        </div>
+        <div class="comments-content">
+        </div>
+    </div>
+
 </div>
 
     </div>
@@ -625,7 +666,7 @@
         },
 
         Suffix : {
-            about : '雅雅拾光记会一直陪着你，打工人，加油！'
+            about : '萤火虫的光点虽然微弱，但亮着便是向黑暗挑战！'
         },
             
         Theme : {
