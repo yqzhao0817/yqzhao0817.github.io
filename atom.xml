@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-11-10T05:22:03.756Z</updated>
+  <updated>2021-11-10T09:30:02.523Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>加速github中图片的访问时间</title>
-    <link href="http://example.com/2021/11/10/%E5%8A%A0%E9%80%9Fgithub%E4%B8%AD%E5%9B%BE%E7%89%87%E7%9A%84%E8%AE%BF%E9%97%AE%E6%97%B6%E9%97%B4/"/>
-    <id>http://example.com/2021/11/10/%E5%8A%A0%E9%80%9Fgithub%E4%B8%AD%E5%9B%BE%E7%89%87%E7%9A%84%E8%AE%BF%E9%97%AE%E6%97%B6%E9%97%B4/</id>
+    <title>Github博客绑定域名</title>
+    <link href="http://example.com/2021/11/10/Github%E5%8D%9A%E5%AE%A2%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D/"/>
+    <id>http://example.com/2021/11/10/Github%E5%8D%9A%E5%AE%A2%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D/</id>
+    <published>2021-11-10T09:11:00.000Z</published>
+    <updated>2021-11-10T09:30:02.523Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="一、首先我们需要："><a href="#一、首先我们需要：" class="headerlink" title="一、首先我们需要："></a>一、首先我们需要：</h3><p>1、一个基于github的博客（这里是hexo）</p><p>2、一个申请好的域名（博主用的是腾讯云下的域名，申请过程都差不多）</p><h3 id="二、绑定过程"><a href="#二、绑定过程" class="headerlink" title="二、绑定过程"></a>二、绑定过程</h3><h4 id="1、登录腾讯云，进入DNS-解析-DNSPod，点击自己的域名"><a href="#1、登录腾讯云，进入DNS-解析-DNSPod，点击自己的域名" class="headerlink" title="1、登录腾讯云，进入DNS 解析 DNSPod，点击自己的域名"></a>1、登录腾讯云，进入DNS 解析 DNSPod，点击自己的域名</h4><p><img src="https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/mm/1-1.png"></p><h4 id="2、添加两条记录并保存（-对应添加的是example-github-io，www对应添加的是www-example-github-io）"><a href="#2、添加两条记录并保存（-对应添加的是example-github-io，www对应添加的是www-example-github-io）" class="headerlink" title="2、添加两条记录并保存（@对应添加的是example.github.io，www对应添加的是www.example.github.io）"></a>2、添加两条记录并保存（@对应添加的是example.github.io，www对应添加的是<a href="http://www.example.github.io)/">www.example.github.io）</a></h4><p><img src="https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/mm/1-2.png"></p><h4 id="3、返回控制台查看，服务状态和DNS状态均为正常即配置成功"><a href="#3、返回控制台查看，服务状态和DNS状态均为正常即配置成功" class="headerlink" title="3、返回控制台查看，服务状态和DNS状态均为正常即配置成功"></a>3、返回控制台查看，服务状态和DNS状态均为正常即配置成功</h4><p><img src="https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/mm/1-3.png"></p><h4 id="4、进入你的github博客仓库，点击setting，下拉找到Github-Page设置页面，输入你要绑定的域名后，点击save"><a href="#4、进入你的github博客仓库，点击setting，下拉找到Github-Page设置页面，输入你要绑定的域名后，点击save" class="headerlink" title="4、进入你的github博客仓库，点击setting，下拉找到Github Page设置页面，输入你要绑定的域名后，点击save"></a>4、进入你的github博客仓库，点击setting，下拉找到Github Page设置页面，输入你要绑定的域名后，点击save</h4><p><img src="https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/mm/1-4.png"></p><h4 id="5、浏览器输入绑定的域名测试，成功登录"><a href="#5、浏览器输入绑定的域名测试，成功登录" class="headerlink" title="5、浏览器输入绑定的域名测试，成功登录"></a>5、浏览器输入绑定的域名测试，成功登录</h4><p><img src="https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/mm/1-5.png"></p><h3 id="三、关于"><a href="#三、关于" class="headerlink" title="三、关于"></a>三、关于</h3><p>我的博客地址：<a href="http://kongkongnet.com/">雅雅拾光记</a></p><p>参考博文：<a href="https://blog.csdn.net/qq2539879928/article/details/106467752">Github与腾讯云快捷绑定方案</a></p>]]></content>
+    
+    
+    <summary type="html">Github博客绑定域名，Let&#39;s get started~</summary>
+    
+    
+    
+    <category term="Github" scheme="http://example.com/category/Github/"/>
+    
+    
+    <category term="DNS解析" scheme="http://example.com/tag/DNS%E8%A7%A3%E6%9E%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>加速Github中资源的访问时间</title>
+    <link href="http://example.com/2021/11/10/%E5%8A%A0%E9%80%9FGithub%E4%B8%AD%E8%B5%84%E6%BA%90%E7%9A%84%E8%AE%BF%E9%97%AE%E6%97%B6%E9%97%B4/"/>
+    <id>http://example.com/2021/11/10/%E5%8A%A0%E9%80%9FGithub%E4%B8%AD%E8%B5%84%E6%BA%90%E7%9A%84%E8%AE%BF%E9%97%AE%E6%97%B6%E9%97%B4/</id>
     <published>2021-11-09T16:00:00.000Z</published>
-    <updated>2021-11-10T05:22:03.756Z</updated>
+    <updated>2021-11-10T09:38:12.856Z</updated>
     
     <content type="html"><![CDATA[<p>最近被博客图片加载慢的问题困扰了很久，既想免费，还想拥有加速服务，就找到了这个，效果还是不错的。</p><h2 id="一、jsDelivr"><a href="#一、jsDelivr" class="headerlink" title="一、jsDelivr"></a>一、jsDelivr</h2><h3 id="1、什么是-jsDelivr？"><a href="#1、什么是-jsDelivr？" class="headerlink" title="1、什么是 jsDelivr？"></a>1、什么是 jsDelivr？</h3><p>​        <a href="https://www.jsdelivr.com/" title="jsDelivr">jsDelivr</a> 是一个免费、开放原始码的公有 CDN 服务，托管了许多大大小小的 <a href="https://so.csdn.net/so/search?from=pc_blog_highlight&q=JavaScript">JavaScript</a>、CSS 等 libraries。将重心放在更快速的网路连线，利用 CDN 技术来确保每个地区的使用者都能获得最好的连线速度。依据 jsDelivr 的说明，它们也是首个「打通中国大陆与海外的免费 CDN 服务」，网页开发者无须担心GFW问题而影响连线（不会像之前中国大陆无法使用 <a href="https://developers.google.com/speed/libraries/" title="Google Hosted Libaries ">Google Hosted Libaries </a> 必须用 <a href="https://free.com.tw/libs-useso-com/" title="libs.useso.com">libs.useso.com</a> 替代）。此外，jsDelivr 可将不同的 JavaScript 或 CSS libraries 整合在一起，透过一段链结来载入网站，非常方便！如果你正在寻找类似服务，jsDelivr 是个不错的选择。</p><h3 id="2、使用方法"><a href="#2、使用方法" class="headerlink" title="2、使用方法"></a>2、使用方法</h3><ol><li><p>创建一个 GitHub 仓库作为图床仓库，上传提交图片到仓库中</p></li><li><p>在要使用 GitHub 图床图片的地方将链接换为 <code>https://cdn.jsdelivr.net/gh/&#123;user&#125;/&#123;repo&#125;/图片路径</code></p><p>举个栗子，比如 GitHub 官方仓库 github/explore 下话题 github 图片原始路径是：<a href="https://link.ld246.com/forward?goto=https://github.com/github/explore/blob/master/topics/github/github.png">https://github.com/github/explore/blob/master/topics/github/github.png</a> 访问起来贼慢。</p><p>使用 jsDelivr 加速后的地址：</p><p><a href="https://link.ld246.com/forward?goto=https://cdn.jsdelivr.net/gh/github/explore/topics/github/github.png">https://cdn.jsdelivr.net/gh/github/explore/topics/github/github.png</a>   就会很快。</p></li></ol><h2 id="二、参考链接"><a href="#二、参考链接" class="headerlink" title="二、参考链接"></a>二、参考链接</h2><ul><li><a href="https://hacpai.com/article/1583894928771">GitHub 图床的正确用法，通过 jsDelivr CDN 全球加速</a></li><li><a href="https://blog.csdn.net/larpland/article/details/101349605">jsDelivr 为开发者提供免费公共 CDN 加速服务</a></li><li><a href="https://www.jsdelivr.com/features">Features - jsDelivr</a></li><li><a href="https://mazhuang.org/2020/05/01/cdn-for-github-pages/#jsdelivr-%E6%94%AF%E6%8C%81%E7%9A%84-github-%E8%B5%84%E6%BA%90%E7%9A%84%E6%96%B9%E5%BC%8F">使用 jsDelivr 免费加速 GitHub Pages 博客的静态资源</a></li></ul><p>更多的使用方法可以多参考一些相关文档，这里只是简单运用了图片的加速。</p>]]></content>
     
@@ -42,12 +63,12 @@
     <link href="http://example.com/2021/11/09/IaaS%E3%80%81PaaS%E3%80%81SaaS%E3%80%81CaaS%E3%80%81MaaS%E7%9A%84%E5%8C%BA%E5%88%AB-%E4%BA%91%E8%AE%A1%E7%AE%97%E6%A6%82%E5%BF%B5%E5%A4%A7%E5%85%A8/"/>
     <id>http://example.com/2021/11/09/IaaS%E3%80%81PaaS%E3%80%81SaaS%E3%80%81CaaS%E3%80%81MaaS%E7%9A%84%E5%8C%BA%E5%88%AB-%E4%BA%91%E8%AE%A1%E7%AE%97%E6%A6%82%E5%BF%B5%E5%A4%A7%E5%85%A8/</id>
     <published>2021-11-08T16:00:00.000Z</published>
-    <updated>2021-11-09T10:19:04.905Z</updated>
+    <updated>2021-11-10T06:22:56.429Z</updated>
     
     <content type="html"><![CDATA[<p>观察五种模式：</p><p><img src="https://img-blog.csdn.net/20170831145255402?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZ3VkdWVyc2hp/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="云计算架构图"></p><p>很明显，这五者之间主要的区别在于第一个单词，而aaS都是as-a-service（即服务）的意思，这五个模式都是近年来兴起的，且这五者都是云计算的落地产品，所以我们先来了解一下云计算是什么。</p><h2 id="1、云计算是什么"><a href="#1、云计算是什么" class="headerlink" title="1、云计算是什么"></a>1、云计算是什么</h2><p>云计算（cloud computing）是基于互联网的相关服务的增加、使用和交付模式，通常涉及通过互联网来提供动态易扩展且经常是虚拟化的资源。云是网络、互联网的一种比喻说法。云计算甚至可以让你体验每秒10万亿次的运算能力，拥有这么强大的计算能力可以模拟核爆炸、预测气候变化和市场发展趋势。用户通过电脑、笔记本、手机等方式接入数据中心，按自己的需求进行运算。<br>通俗的来说云计算就是以前的服务器计算的升级版，其主要有扩展性强、廉价、虚拟化、计算能力强这几个特点。</p><h2 id="2、IaaS是什么意思？"><a href="#2、IaaS是什么意思？" class="headerlink" title="2、IaaS是什么意思？"></a>2、IaaS是什么意思？</h2><p>aaS: Infrastructure-as-a-Service（基础设施即服务） 第一层叫做IaaS，有时候也叫做Hardware-as-a-Service。<br>几年前如果你想在办公室或者公司的网站上运行一些企业应用，你需要去买服务器，或者别的高昂的硬件来控制本地应用，让你的业务运行起来。<br>但是现在有了IaaS，你可以将硬件外包到别的地方去。IaaS公司会提供场外服务器，存储和网络硬件，你可以租用。节省了维护成本和办公场地，公司可以在任何时候利用这些硬件来运行其应用。<br>一些大的IaaS公司包括Amazon, Microsoft, VMWare, Rackspace和Red Hat.不过这些公司又都有自己的专长，比如Amazon和微软给你提供的不只是IaaS，他们还会将其计算能力出租给你来host你的网站。</p><h2 id="3、PaaS是什么意思？"><a href="#3、PaaS是什么意思？" class="headerlink" title="3、PaaS是什么意思？"></a>3、PaaS是什么意思？</h2><p>PaaS: Platform-as-a-Service（平台即服务） 第二层就是所谓的PaaS，某些时候也叫做中间件。你公司所有的开发都可以在这一层进行，节省了时间和资源。</p><p>PaaS公司在网上提供各种开发和分发应用的解决方案，比如虚拟服务器和操作系统。这节省了你在硬件上的费用，也让分散的工作室之间的合作变得更加容易。网页应用管理，应用设计，应用虚拟主机，存储，安全以及应用开发协作工具等。<br>一些大的PaaS提供者有Google App Engine,Microsoft Azure，Force.com,Heroku，Engine Yard。最近兴起的公司有AppFog, Mendix 和 Standing Cloud</p><h2 id="4、SaaS是什么意思？"><a href="#4、SaaS是什么意思？" class="headerlink" title="4、SaaS是什么意思？"></a>4、SaaS是什么意思？</h2><p>SaaS: Software-as-a-Service（软件即服务）<br>第三层也就是所谓SaaS。这一层是和你的生活每天接触的一层，大多是通过网页浏览器来接入。任何一个远程服务器上的应用都可以通过网络来运行，就是SaaS了。<br>你消费的服务完全是从网页如Netflix, MOG, Google Apps, Box.NET, Dropbox或者苹果的iCloud那里进入这些分类。尽管这些网页服务是用作商务和娱乐或者两者都有，但这也算是云技术的一部分。<br>一些用作商务的SaaS应用包括Citrix的GoToMeeting，Cisco的WebEx，Salesforce的CRM，ADP，Workday和SuccessFactors。</p><p>目前三者的发展情况都不错，三者之间也有着较为密切的联系，其中IaaS是基础层、PaaS是平台层的，而SaaS是软件层的。<br>近年来随着团队协作的深入发展，CaaS、MaaS也不断的进入人们的视野，那CaaS、MaaS又是什么意思呢？</p><h2 id="5、CaaS是什么意思？"><a href="#5、CaaS是什么意思？" class="headerlink" title="5、CaaS是什么意思？"></a>5、CaaS是什么意思？</h2><p>CaaS是Communications-as-a-Service缩写，意思是通讯即服务(也可称为协作即服务)。CaaS是将传统电信的能力如消息、语音、视频、会议、通信协同等封装成API(Application Programming Interface，应用软件编程接口)或者SDK(Software Development Kit，软件开发工具包)通过互联网对外开放，提供给第三方（企业、SME、垂直行业、CP/SP以及个人开发者等等）使用，将电信能力真正作为服务对外提供。<br>也被称为云计算的第四种业务形式，目前国内华为已经在着手在建立CaaS的生态圈。</p><h2 id="6、MaaS是什么意思？"><a href="#6、MaaS是什么意思？" class="headerlink" title="6、MaaS是什么意思？"></a>6、MaaS是什么意思？</h2><p>MaaS(Machine as a Service)物联网即服务，这个概念伴随着物联网产生，物联网常见的两种业务形式就是MAI与MaaS，因此MaaS属于物联网业务形式的一种。<br>随着物联网业务量的增加，对数据存储和计算量的需求将带来对“云计算”能力的要求：<br>云计算：从计算中心到数据中心在物联网的初级阶段，PoP即可满足需求<br>在物联网高级阶段，可能出现MVNO/MMO营运商（国外已存在多年），需要虚拟化云计算技术，SOA等技术的结合实现物联网的泛在服务： TaaS （everyTHING As A Service) 。</p><p>本文转载于：<a href="https://blog.csdn.net/guduershi/article/details/77746606">https://blog.csdn.net/guduershi/article/details/77746606</a></p>]]></content>
     
     
-    <summary type="html">IaaS、PaaS、SaaS、CaaS、MaaS的区别_云计算概念大全</summary>
+    <summary type="html">IaaS、PaaS、SaaS、CaaS、MaaS的区别_云计算概念大全。</summary>
     
     
     

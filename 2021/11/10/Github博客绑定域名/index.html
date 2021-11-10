@@ -6,7 +6,7 @@
     <meta name="referrer" content="origin">
     <meta http-equiv="Cache-Control" content="no-transform">
     <meta http-equiv="Cache-Control" content="no-siteapp">
-    <title>加速github中图片的访问时间</title>
+    <title>Github博客绑定域名</title>
     <link rel="shortcut icon" href="#"/>
 
     <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/font/LongCang.css">
@@ -34,19 +34,19 @@
     <div class="header">
         <div class="vertical">
             <div class="inner">
-                <h1 class="header-subtitle">加速github中图片的访问时间</h1>
+                <h1 class="header-subtitle">Github博客绑定域名</h1>
                 <div class="header-subinfo">
                     <p class="article-info-text">
                         <span>
                             <i class="iconfont icon-time"></i> 发表时间：2021-11-10
                         </span>
                         
-                            <span id="/2021/11/10/加速github中图片的访问时间/" class="leancloud_visitors" data-flag-title="加速github中图片的访问时间">
+                            <span id="/2021/11/10/Github博客绑定域名/" class="leancloud_visitors" data-flag-title="Github博客绑定域名">
                                 <i class="iconfont icon-browse"></i> 阅读：<sapn class="leancloud-visitors-count"></span>
                             </span>
                         
                         <span>
-                            <i class="iconfont icon-interactive"></i> 评论：<span class="valine-comment-count" data-xid="/2021/11/10/加速github中图片的访问时间/"></span>
+                            <i class="iconfont icon-interactive"></i> 评论：<span class="valine-comment-count" data-xid="/2021/11/10/Github博客绑定域名/"></span>
                         </span>  
                     </p>                 
                 </div>
@@ -60,24 +60,15 @@
         <div id="article">
     <div class="toc"></div>
     <div class="article-body">
-        <p>最近被博客图片加载慢的问题困扰了很久，既想免费，还想拥有加速服务，就找到了这个，效果还是不错的。</p>
-<h2 id="一、jsDelivr"><a href="#一、jsDelivr" class="headerlink" title="一、jsDelivr"></a>一、jsDelivr</h2><h3 id="1、什么是-jsDelivr？"><a href="#1、什么是-jsDelivr？" class="headerlink" title="1、什么是 jsDelivr？"></a>1、什么是 jsDelivr？</h3><p>​        <a target="_blank" rel="noopener" href="https://www.jsdelivr.com/" title="jsDelivr">jsDelivr</a> 是一个免费、开放原始码的公有 CDN 服务，托管了许多大大小小的 <a target="_blank" rel="noopener" href="https://so.csdn.net/so/search?from=pc_blog_highlight&q=JavaScript">JavaScript</a>、CSS 等 libraries。将重心放在更快速的网路连线，利用 CDN 技术来确保每个地区的使用者都能获得最好的连线速度。依据 jsDelivr 的说明，它们也是首个「打通中国大陆与海外的免费 CDN 服务」，网页开发者无须担心GFW问题而影响连线（不会像之前中国大陆无法使用 <a target="_blank" rel="noopener" href="https://developers.google.com/speed/libraries/" title="Google Hosted Libaries ">Google Hosted Libaries </a> 必须用 <a target="_blank" rel="noopener" href="https://free.com.tw/libs-useso-com/" title="libs.useso.com">libs.useso.com</a> 替代）。此外，jsDelivr 可将不同的 JavaScript 或 CSS libraries 整合在一起，透过一段链结来载入网站，非常方便！如果你正在寻找类似服务，jsDelivr 是个不错的选择。</p>
-<h3 id="2、使用方法"><a href="#2、使用方法" class="headerlink" title="2、使用方法"></a>2、使用方法</h3><ol>
-<li><p>创建一个 GitHub 仓库作为图床仓库，上传提交图片到仓库中</p>
-</li>
-<li><p>在要使用 GitHub 图床图片的地方将链接换为 <code>https://cdn.jsdelivr.net/gh/&#123;user&#125;/&#123;repo&#125;/图片路径</code></p>
-<p>举个栗子，比如 GitHub 官方仓库 github/explore 下话题 github 图片原始路径是：<a target="_blank" rel="noopener" href="https://link.ld246.com/forward?goto=https://github.com/github/explore/blob/master/topics/github/github.png">https://github.com/github/explore/blob/master/topics/github/github.png</a> 访问起来贼慢。</p>
-<p>使用 jsDelivr 加速后的地址：</p>
-<p><a target="_blank" rel="noopener" href="https://link.ld246.com/forward?goto=https://cdn.jsdelivr.net/gh/github/explore/topics/github/github.png">https://cdn.jsdelivr.net/gh/github/explore/topics/github/github.png</a>   就会很快。</p>
-</li>
-</ol>
-<h2 id="二、参考链接"><a href="#二、参考链接" class="headerlink" title="二、参考链接"></a>二、参考链接</h2><ul>
-<li><a target="_blank" rel="noopener" href="https://hacpai.com/article/1583894928771">GitHub 图床的正确用法，通过 jsDelivr CDN 全球加速</a></li>
-<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/larpland/article/details/101349605">jsDelivr 为开发者提供免费公共 CDN 加速服务</a></li>
-<li><a target="_blank" rel="noopener" href="https://www.jsdelivr.com/features">Features - jsDelivr</a></li>
-<li><a target="_blank" rel="noopener" href="https://mazhuang.org/2020/05/01/cdn-for-github-pages/#jsdelivr-%E6%94%AF%E6%8C%81%E7%9A%84-github-%E8%B5%84%E6%BA%90%E7%9A%84%E6%96%B9%E5%BC%8F">使用 jsDelivr 免费加速 GitHub Pages 博客的静态资源</a></li>
-</ul>
-<p>更多的使用方法可以多参考一些相关文档，这里只是简单运用了图片的加速。</p>
+        <h3 id="一、首先我们需要："><a href="#一、首先我们需要：" class="headerlink" title="一、首先我们需要："></a>一、首先我们需要：</h3><p>1、一个基于github的博客（这里是hexo）</p>
+<p>2、一个申请好的域名（博主用的是腾讯云下的域名，申请过程都差不多）</p>
+<h3 id="二、绑定过程"><a href="#二、绑定过程" class="headerlink" title="二、绑定过程"></a>二、绑定过程</h3><h4 id="1、登录腾讯云，进入DNS-解析-DNSPod，点击自己的域名"><a href="#1、登录腾讯云，进入DNS-解析-DNSPod，点击自己的域名" class="headerlink" title="1、登录腾讯云，进入DNS 解析 DNSPod，点击自己的域名"></a>1、登录腾讯云，进入DNS 解析 DNSPod，点击自己的域名</h4><p><img src="https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/mm/1-1.png"></p>
+<h4 id="2、添加两条记录并保存（-对应添加的是example-github-io，www对应添加的是www-example-github-io）"><a href="#2、添加两条记录并保存（-对应添加的是example-github-io，www对应添加的是www-example-github-io）" class="headerlink" title="2、添加两条记录并保存（@对应添加的是example.github.io，www对应添加的是www.example.github.io）"></a>2、添加两条记录并保存（@对应添加的是example.github.io，www对应添加的是<a target="_blank" rel="noopener" href="http://www.example.github.io)/">www.example.github.io）</a></h4><p><img src="https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/mm/1-2.png"></p>
+<h4 id="3、返回控制台查看，服务状态和DNS状态均为正常即配置成功"><a href="#3、返回控制台查看，服务状态和DNS状态均为正常即配置成功" class="headerlink" title="3、返回控制台查看，服务状态和DNS状态均为正常即配置成功"></a>3、返回控制台查看，服务状态和DNS状态均为正常即配置成功</h4><p><img src="https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/mm/1-3.png"></p>
+<h4 id="4、进入你的github博客仓库，点击setting，下拉找到Github-Page设置页面，输入你要绑定的域名后，点击save"><a href="#4、进入你的github博客仓库，点击setting，下拉找到Github-Page设置页面，输入你要绑定的域名后，点击save" class="headerlink" title="4、进入你的github博客仓库，点击setting，下拉找到Github Page设置页面，输入你要绑定的域名后，点击save"></a>4、进入你的github博客仓库，点击setting，下拉找到Github Page设置页面，输入你要绑定的域名后，点击save</h4><p><img src="https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/mm/1-4.png"></p>
+<h4 id="5、浏览器输入绑定的域名测试，成功登录"><a href="#5、浏览器输入绑定的域名测试，成功登录" class="headerlink" title="5、浏览器输入绑定的域名测试，成功登录"></a>5、浏览器输入绑定的域名测试，成功登录</h4><p><img src="https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/mm/1-5.png"></p>
+<h3 id="三、关于"><a href="#三、关于" class="headerlink" title="三、关于"></a>三、关于</h3><p>我的博客地址：<a target="_blank" rel="noopener" href="http://kongkongnet.com/">雅雅拾光记</a></p>
+<p>参考博文：<a target="_blank" rel="noopener" href="https://blog.csdn.net/qq2539879928/article/details/106467752">Github与腾讯云快捷绑定方案</a></p>
 
         <p class="suffix-end">__END__</p>
         <div class="suffix-box">
@@ -112,14 +103,14 @@
             <div class="tag">
                 标签：
                 
-                    <a href="/tag/jsDelivr/">jsDelivr</a>
+                    <a href="/tag/DNS%E8%A7%A3%E6%9E%90/">DNS解析</a>
                 
             </div>
         
         <div class="article-prev-next">
             
             
-                <a href="/2021/11/09/IaaS%E3%80%81PaaS%E3%80%81SaaS%E3%80%81CaaS%E3%80%81MaaS%E7%9A%84%E5%8C%BA%E5%88%AB-%E4%BA%91%E8%AE%A1%E7%AE%97%E6%A6%82%E5%BF%B5%E5%A4%A7%E5%85%A8/" class="next-prefix">» </a> 下一篇：    <a href="/2021/11/09/IaaS%E3%80%81PaaS%E3%80%81SaaS%E3%80%81CaaS%E3%80%81MaaS%E7%9A%84%E5%8C%BA%E5%88%AB-%E4%BA%91%E8%AE%A1%E7%AE%97%E6%A6%82%E5%BF%B5%E5%A4%A7%E5%85%A8/" title="发布于 2021-11-09 12:00">IaaS、PaaS、SaaS、CaaS、MaaS的区别_云计算概念大全</a>
+                <a href="/2021/11/10/%E5%8A%A0%E9%80%9FGithub%E4%B8%AD%E8%B5%84%E6%BA%90%E7%9A%84%E8%AE%BF%E9%97%AE%E6%97%B6%E9%97%B4/" class="next-prefix">» </a> 下一篇：    <a href="/2021/11/10/%E5%8A%A0%E9%80%9FGithub%E4%B8%AD%E8%B5%84%E6%BA%90%E7%9A%84%E8%AE%BF%E9%97%AE%E6%97%B6%E9%97%B4/" title="发布于 2021-11-10 12:00">加速Github中资源的访问时间</a>
             
         </div>
     </div>
@@ -203,14 +194,14 @@
         GitHubRepositories : 'Hexo-LiveForCode',
 
         BlogUser      : '雅雅拾光记',
-        BlogAvatar    : 'https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/touxiang.jpg',
+        BlogAvatar    : 'https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/mm/touxiang.jpg',
         BlogStartDate : '2021-11-07',
 
         WebsiteTitleBlur         : 'Hi~欢迎来到雅雅拾光记~',
         WebsiteTitleBlurTimeOut  : 500,
         WebsiteTitleFocus        : '(*´∇｀*) 欢迎回来!',
         WebsiteTitleFocusTimeOut : 1000,
-        WebsiteFavicon           : 'https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/website.jpg',
+        WebsiteFavicon           : 'https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/mm/website.jpg',
 
         ProgressBar: {
             id       : 'topProgressBar',
@@ -306,30 +297,30 @@
 
         HomeHeaderImage : [
             
-                'https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/1.jpeg',
+                'https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/mm/1.jpeg',
             
-                'https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/2.jpeg',
+                'https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/mm/2.jpeg',
             
-                'https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/3.jpeg',
+                'https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/mm/3.jpeg',
             
-                'https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/4.jpeg',
+                'https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/mm/4.jpeg',
             
-                'https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/5.jpeg',
+                'https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/mm/5.jpeg',
             
         ],
         HomeBannerText  : '',
 
         ArticleHeaderImage : [
             
-                'https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/6.jpeg',
+                'https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/mm/6.jpeg',
             
-                'https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/7.jpeg',
+                'https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/mm/7.jpeg',
             
-                'https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/8.jpeg',
+                'https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/mm/8.jpeg',
             
-                'https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/9.jpeg',
+                'https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/mm/9.jpeg',
             
-                'https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/10.jpeg',
+                'https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/mm/10.jpeg',
             
         ],
 
@@ -474,10 +465,10 @@
         FontIconExtend : '',
 
         Donate : {
-            paypal  : 'https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/qidai.jpg',
-            bitcoin : 'https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/qidai.jpg',
-            alipay  : 'https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/zfb.jpg',
-            wechat  : 'https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/wx.jpg'
+            paypal  : 'https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/mm/qidai.jpg',
+            bitcoin : 'https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/mm/qidai.jpg',
+            alipay  : 'https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/mm/zfb.jpg',
+            wechat  : 'https://cdn.jsdelivr.net/gh/yqzhao0817/tupian/mm/wx.jpg'
         },
 
         Code : {
