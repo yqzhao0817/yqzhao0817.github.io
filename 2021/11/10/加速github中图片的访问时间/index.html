@@ -6,7 +6,7 @@
     <meta name="referrer" content="origin">
     <meta http-equiv="Cache-Control" content="no-transform">
     <meta http-equiv="Cache-Control" content="no-siteapp">
-    <title>归档</title>
+    <title>加速github中图片的访问时间</title>
     <link rel="shortcut icon" href="#"/>
 
     <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/font/LongCang.css">
@@ -18,91 +18,121 @@
     <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/font/Rosario.css">
     <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/font/UbuntuMono.css">
 
-    <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/css/archive.css">
+    <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/css/post.css">
+    
+        <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/css/normal.css">
+    
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/js/jquery-3.4.1.min.js"></script>
+
 <meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
 </head>
 <body>
     <a id="cover"></a>
     <div id="header">
 <meta name="referrer" content="no-referrer" />
-    <div class="header" >
+    <div class="header">
         <div class="vertical">
             <div class="inner">
-                <h1 class="header-title"></h1>
-                <h2 class="header-description" id="hitokoto"></h2>
-                <h3 class="header-info" id="hitokotoAuthor"></h3>
-                <!--
-                <h1 class="header-subtitle"></h1>
-                <p class="header-subinfo"></p>
-                -->
+                <h1 class="header-subtitle">加速github中图片的访问时间</h1>
+                <div class="header-subinfo">
+                    <p class="article-info-text">
+                        <span>
+                            <i class="iconfont icon-time"></i> 发表时间：2021-11-10
+                        </span>
+                        
+                            <span id="/2021/11/10/加速github中图片的访问时间/" class="leancloud_visitors" data-flag-title="加速github中图片的访问时间">
+                                <i class="iconfont icon-browse"></i> 阅读：<sapn class="leancloud-visitors-count"></span>
+                            </span>
+                        
+                        <span>
+                            <i class="iconfont icon-interactive"></i> 评论：<span class="valine-comment-count" data-xid="/2021/11/10/加速github中图片的访问时间/"></span>
+                        </span>  
+                    </p>                 
+                </div>
             </div>
         </div>
-        <a class="scroll-down" href="javascript:;" target="_self" data-offset="-45">
-            <span class="hidden">Scroll Down</span>
-            <i class="scroll-down-icon iconfont icon-return"></i>
-        </a>
+        <canvas id="articleHeaderCanvas"></canvas>
     </div>
 </div>
     <div id="container">
     <div id="content">
-        
-    <div class="articles">
-        
-        
-            
-                
-                    
-                    <div class="archives-wrap">      
-                        <div class="archive-year-wrap">
-                            <a href="/archive/2021" class="archive-year">
-                                2021
-                            </a>
-                        </div>
-                        <div class="archives">
-            
-                            <div class="archive">
-                                <div class="article">
-                                    <a href="javascript:;">
-                                        <span>11/10</span>
-                                    </a>
-                                    <h2>
-                                        <a class="article-title" href="/2021/11/10/%E5%8A%A0%E9%80%9Fgithub%E4%B8%AD%E5%9B%BE%E7%89%87%E7%9A%84%E8%AE%BF%E9%97%AE%E6%97%B6%E9%97%B4/">加速github中图片的访问时间</a> 
-                                    </h2>
-                                </div>
-                            </div>     
-        
-            
-                            <div class="archive">
-                                <div class="article">
-                                    <a href="javascript:;">
-                                        <span>11/09</span>
-                                    </a>
-                                    <h2>
-                                        <a class="article-title" href="/2021/11/09/IaaS%E3%80%81PaaS%E3%80%81SaaS%E3%80%81CaaS%E3%80%81MaaS%E7%9A%84%E5%8C%BA%E5%88%AB-%E4%BA%91%E8%AE%A1%E7%AE%97%E6%A6%82%E5%BF%B5%E5%A4%A7%E5%85%A8/">IaaS、PaaS、SaaS、CaaS、MaaS的区别_云计算概念大全</a> 
-                                    </h2>
-                                </div>
-                            </div>     
-        
-            
-                            <div class="archive">
-                                <div class="article">
-                                    <a href="javascript:;">
-                                        <span>11/08</span>
-                                    </a>
-                                    <h2>
-                                        <a class="article-title" href="/2021/11/08/myfirst/">雅雅拾光记,我的第一篇博文~</a> 
-                                    </h2>
-                                </div>
-                            </div>     
-        
-        
-            </div>
-        </div>
-        
-    </div>   
+        <div id="article">
+    <div class="toc"></div>
+    <div class="article-body">
+        <p>最近被博客图片加载慢的问题困扰了很久，既想免费，还想拥有加速服务，就找到了这个，效果还是不错的。</p>
+<h2 id="一、jsDelivr"><a href="#一、jsDelivr" class="headerlink" title="一、jsDelivr"></a>一、jsDelivr</h2><h3 id="1、什么是-jsDelivr？"><a href="#1、什么是-jsDelivr？" class="headerlink" title="1、什么是 jsDelivr？"></a>1、什么是 jsDelivr？</h3><p>​        <a target="_blank" rel="noopener" href="https://www.jsdelivr.com/" title="jsDelivr">jsDelivr</a> 是一个免费、开放原始码的公有 CDN 服务，托管了许多大大小小的 <a target="_blank" rel="noopener" href="https://so.csdn.net/so/search?from=pc_blog_highlight&q=JavaScript">JavaScript</a>、CSS 等 libraries。将重心放在更快速的网路连线，利用 CDN 技术来确保每个地区的使用者都能获得最好的连线速度。依据 jsDelivr 的说明，它们也是首个「打通中国大陆与海外的免费 CDN 服务」，网页开发者无须担心GFW问题而影响连线（不会像之前中国大陆无法使用 <a target="_blank" rel="noopener" href="https://developers.google.com/speed/libraries/" title="Google Hosted Libaries ">Google Hosted Libaries </a> 必须用 <a target="_blank" rel="noopener" href="https://free.com.tw/libs-useso-com/" title="libs.useso.com">libs.useso.com</a> 替代）。此外，jsDelivr 可将不同的 JavaScript 或 CSS libraries 整合在一起，透过一段链结来载入网站，非常方便！如果你正在寻找类似服务，jsDelivr 是个不错的选择。</p>
+<h3 id="2、使用方法"><a href="#2、使用方法" class="headerlink" title="2、使用方法"></a>2、使用方法</h3><ol>
+<li><p>创建一个 GitHub 仓库作为图床仓库，上传提交图片到仓库中</p>
+</li>
+<li><p>在要使用 GitHub 图床图片的地方将链接换为 <code>https://cdn.jsdelivr.net/gh/&#123;user&#125;/&#123;repo&#125;/图片路径</code></p>
+<p>举个栗子，比如 GitHub 官方仓库 github/explore 下话题 github 图片原始路径是：<a target="_blank" rel="noopener" href="https://link.ld246.com/forward?goto=https://github.com/github/explore/blob/master/topics/github/github.png">https://github.com/github/explore/blob/master/topics/github/github.png</a> 访问起来贼慢。</p>
+<p>使用 jsDelivr 加速后的地址：</p>
+<p><a target="_blank" rel="noopener" href="https://link.ld246.com/forward?goto=https://cdn.jsdelivr.net/gh/github/explore/topics/github/github.png">https://cdn.jsdelivr.net/gh/github/explore/topics/github/github.png</a>   就会很快。</p>
+</li>
+</ol>
+<h2 id="二、参考链接"><a href="#二、参考链接" class="headerlink" title="二、参考链接"></a>二、参考链接</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://hacpai.com/article/1583894928771">GitHub 图床的正确用法，通过 jsDelivr CDN 全球加速</a></li>
+<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/larpland/article/details/101349605">jsDelivr 为开发者提供免费公共 CDN 加速服务</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.jsdelivr.com/features">Features - jsDelivr</a></li>
+<li><a target="_blank" rel="noopener" href="https://mazhuang.org/2020/05/01/cdn-for-github-pages/#jsdelivr-%E6%94%AF%E6%8C%81%E7%9A%84-github-%E8%B5%84%E6%BA%90%E7%9A%84%E6%96%B9%E5%BC%8F">使用 jsDelivr 免费加速 GitHub Pages 博客的静态资源</a></li>
+</ul>
+<p>更多的使用方法可以多参考一些相关文档，这里只是简单运用了图片的加速。</p>
 
+        <p class="suffix-end">__END__</p>
+        <div class="suffix-box">
+            <div class="suffix-box-left">
+                <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Finews.gtimg.com%2Fnewsapp_bt%2F0%2F14118575606%2F1000&refer=http%3A%2F%2Finews.gtimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1638817302&t=ce6186da027ac90575f7be9cc937d813" alt="雅雅拾光记">
+            </div>
+            <div class="suffix-box-right">
+                <span class="suffix-box-title">文章作者</span>：雅雅拾光记
+                <br>
+                <span class="suffix-box-title">文章出处</span>：<a href="https://yqzhao0817.github.io/" target="_blank">雅雅拾光记</a>
+                <br>
+                <span class="suffix-box-title">作者签名</span>：萤火虫的光点虽然微弱，但亮着便是向黑暗挑战！
+                <br>
+                <span class="suffix-box-title">关于主题</span>：<a href="https://github.com/first19326/Hexo-LiveForCode" target="_blank">Hexo - Live For Code</a>
+                <br>
+                <span class="suffix-box-title">版权声明</span>：文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" title="BY-NC-SA" target="_blank">BY-NC-SA</a> 许可协议，转载请注明出处
+                <br>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+    </div>
+    <div class="article-footer">
+        
+            <div class="category">
+                分类：
+                
+                    <a href="/category/Github/">Github</a>
+                
+            </div>
+        
+        
+            <div class="tag">
+                标签：
+                
+                    <a href="/tag/jsDelivr/">jsDelivr</a>
+                
+            </div>
+        
+        <div class="article-prev-next">
+            
+            
+                <a href="/2021/11/09/IaaS%E3%80%81PaaS%E3%80%81SaaS%E3%80%81CaaS%E3%80%81MaaS%E7%9A%84%E5%8C%BA%E5%88%AB-%E4%BA%91%E8%AE%A1%E7%AE%97%E6%A6%82%E5%BF%B5%E5%A4%A7%E5%85%A8/" class="next-prefix">» </a> 下一篇：    <a href="/2021/11/09/IaaS%E3%80%81PaaS%E3%80%81SaaS%E3%80%81CaaS%E3%80%81MaaS%E7%9A%84%E5%8C%BA%E5%88%AB-%E4%BA%91%E8%AE%A1%E7%AE%97%E6%A6%82%E5%BF%B5%E5%A4%A7%E5%85%A8/" title="发布于 2021-11-09 12:00">IaaS、PaaS、SaaS、CaaS、MaaS的区别_云计算概念大全</a>
+            
+        </div>
+    </div>
+    
+    <div class="article-comments">
+        <div class="comments-title">
+            评论列表
+        </div>
+        <div class="comments-content">
+        </div>
+    </div>
+
+</div>
 
     </div>
 </div>
