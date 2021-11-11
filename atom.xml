@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-11-10T09:30:02.523Z</updated>
+  <updated>2021-11-11T09:06:49.436Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2021/11/11每日一歌~</title>
+    <link href="http://example.com/2021/11/11/%E6%AF%8F%E6%97%A5%E4%B8%80%E6%AD%8C2021.11.11/"/>
+    <id>http://example.com/2021/11/11/%E6%AF%8F%E6%97%A5%E4%B8%80%E6%AD%8C2021.11.11/</id>
+    <published>2021-11-11T05:48:01.000Z</published>
+    <updated>2021-11-11T09:06:49.436Z</updated>
+    
+    <content type="html"><![CDATA[<p>我多么希望，世界上不会再有争吵，等到世间万物睡个好觉，再把你拥抱。来听歌吧~</p><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=gb2312"><link rel="stylesheet" href="../p.css"><style type="text/css">.div_a{ width:100%; height:100px; text-align:center}</style><title>Sample</title></head><body><div class="div_a"><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=1861640530&auto=1&height=66"></iframe></div></body></html>                   <table><thead><tr><th align="center">如果有缘，错过了还会重来；如果无缘，相遇了也会离开。聚有聚的理由，离有离的借口，人生没有如果，只有后果和结果。</th></tr></thead><tbody><tr><td align="center">作词：薛之谦/茶茶</td></tr><tr><td align="center">作曲：茶茶</td></tr><tr><td align="center">我希望</td></tr><tr><td align="center">有一天我会长出翅膀</td></tr><tr><td align="center">遨游在浩瀚宇宙的海洋</td></tr><tr><td align="center">不用氧只靠光</td></tr><tr><td align="center">我多么希望</td></tr><tr><td align="center">世界上不会再有争吵</td></tr><tr><td align="center">等到世间万物睡个好觉</td></tr><tr><td align="center">再把你拥抱</td></tr><tr><td align="center">有那一天</td></tr><tr><td align="center">燕子在浪里奔跑</td></tr><tr><td align="center">大人们都在傻笑</td></tr><tr><td align="center">温度也刚刚好</td></tr><tr><td align="center">会有那一天</td></tr><tr><td align="center">你把我变废为宝</td></tr><tr><td align="center">等到我们都释怀不少</td></tr><tr><td align="center">就把你忘掉</td></tr><tr><td align="center">我希望</td></tr><tr><td align="center">有一天我们有个收场</td></tr><tr><td align="center">先去趟所有没去的地方</td></tr><tr><td align="center">看蓝雨看极光</td></tr><tr><td align="center">我多么希望</td></tr><tr><td align="center">有一天人们开始和好</td></tr><tr><td align="center">不用再确认万物都睡着</td></tr><tr><td align="center">才能给你拥抱</td></tr><tr><td align="center">有那一天</td></tr><tr><td align="center">你会拽着我逃跑</td></tr><tr><td align="center">你先长出了羽毛</td></tr><tr><td align="center">成为我的困扰</td></tr><tr><td align="center">会有那一天</td></tr><tr><td align="center">你把我变废为宝</td></tr><tr><td align="center">等到我们都释怀不少</td></tr><tr><td align="center">就会把你忘掉</td></tr><tr><td align="center">会有那一天</td></tr><tr><td align="center">你把我变废为宝</td></tr><tr><td align="center">反正还是次千了百了</td></tr><tr><td align="center">就别重归于好</td></tr></tbody></table>]]></content>
+    
+    
+    <summary type="html">每日一歌分享，薛之谦《变废为宝》~</summary>
+    
+    
+    
+    <category term="薛之谦" scheme="http://example.com/category/%E8%96%9B%E4%B9%8B%E8%B0%A6/"/>
+    
+    
+    <category term="歌曲" scheme="http://example.com/tag/%E6%AD%8C%E6%9B%B2/"/>
+    
+  </entry>
   
   <entry>
     <title>Github博客绑定域名</title>
